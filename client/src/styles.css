@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/purple-green.css';
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+#bg{
+    color: #fff; background-image: url("./assets/tavern.png");
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 100%; /*1024px*/
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    z-index: 0;
+}
+
+.wrapper{
+    display: inline-block;
+    position:relative;
+}
+
+.big-img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.small-img{
+    position:absolute;
+    right: 40%;
+    top: 15%;
+    width: 30%;
+    max-width:30%;
+}
+
+.centered {
+    position: relative;
+}
+
+.text-wrap {
+    white-space: normal !important;
+    font-size: 20px;
+}
+
+/*@import '@angular/material/theming';*/
+.mat-checkbox-layout {
+    white-space: normal !important;
+    word-break: break-all;
+}
+
+.mat-form-field{
+    padding: 5px;
+}
+
+table, th, td, tr {
+    border: 1px solid #fff;
+}
+
+.table-action {
+    padding: 10px;
+}
+
+button {
+    border: 1px solid orange;
+}

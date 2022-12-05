@@ -1,0 +1,15 @@
+Tasks:
+    [x] Add the quest functionality
+    [x] Add the timer functionality
+    [x] Add the character functionality
+Minimum Requirements:
+    [x] Add AJAX
+    [] make it so that all the stuff is restricted around wall by cookies
+    [] Add logout functionality that'll erase the cookies
+    [x] Fix the AJAX thing in the checklist
+Extra:
+    [] Make the checklist text links so the TA will have an easier time
+    [] Fix some of the formatting issues and make it look neater
+    [] Allow the user increase their stats
+Minor Bugs:
+    [] The Login page isn't returning alarms when an incorrect login happens. use snack bar?
